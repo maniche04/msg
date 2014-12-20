@@ -1,0 +1,78 @@
+@font-face {
+         font-family: 'Aller';
+         src: url('../fonts/aller.ttf') format('truetype');
+         
+}
+
+
+body {
+	font-family: 'Aller';
+	text-align: Center;
+	
+}
+
+#graph {
+	float: left;
+}
+
+#loginbox {
+	margin-top: 10%;
+	padding: 15px;
+	background:#fff;
+	border:1px solid #ddd;
+	margin:0 auto;
+	width:350px;
+	font-size:16px;
+	-moz-box-shadow:1px 1px 7px #ccc;
+	-webkit-box-shadow:1px 1px 7px #ccc;
+	box-shadow:1px 1px 7px #ccc;
+
+}
+
+#logintitle {
+	background: #B4E6F6;
+	font-size: 1.2em;
+	
+}
+
+#companylogo {
+	width: auto;
+	size: 0.7em;
+	
+}
+
+input[type="text"],
+input[type="password"]{
+	font-family: Consolas;
+	border: solid 1px #E5E5E5;
+	background: #FFFFFF;
+	margin: 5px 30px 0px 30px;
+	padding: 3px;
+	display:block;
+	font-size:15px;
+	width:76%;
+	background: 
+		-webkit-gradient(
+			linear,
+			left top,
+			left 25,
+			from(#FFFFFF),
+			color-stop(4%, #EEEEEE),
+			to(#FFFFFF)
+		);
+	background: 
+		-moz-linear-gradient(
+			top,
+			#FFFFFF,
+			#EEEEEE 1px,
+			#FFFFFF 25px
+			);
+	-moz-box-shadow: 0px 0px 8px #f0f0f0;
+	-webkit-box-shadow: 0px 0px 8px #f0f0f0;
+	box-shadow: 0px 0px 8px #f0f0f0;
+}
+
+input[type="submit"] {
+	font-size: 1em;
+	font-family: Consolas;
+}
